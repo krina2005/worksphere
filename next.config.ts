@@ -4,7 +4,9 @@ const nextConfig: NextConfig = {
   output: "export",
 
   basePath: "/worksphere",
-  assetPrefix: "/worksphere/",
+  assetPrefix: "/worksphere",
+
+  trailingSlash: true,
 
   images: {
     unoptimized: true,
